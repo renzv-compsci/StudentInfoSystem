@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nu_navy">#0B1F44</color>
+    <color name="nu_navy_dark">#071633</color>
+    <color name="nu_gold">#E9B44C</color>
+    <color name="nu_gold_line">#59E9B44C</color>
+    <color name="nu_cream">#F8F5EE</color>
+    <color name="nu_card">#FFFDF8</color>
+    <color name="nu_ink">#1B2433</color>
+    <color name="nu_muted">#5C6B82</color>
+</resources>

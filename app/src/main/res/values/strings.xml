@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">StudentInfoSystem</string>
+    <string name="nu_monogram">NU</string>
+    <string name="login_title">Student Information System</string>
+    <string name="university_name">National University</string>
+    <string name="login_card_title">Sign In</string>
+    <string name="login_card_subtitle">Enter your account details to continue.</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="title_student_info">Student Information</string>
+    <string name="section_personal">Personal Information</string>
+    <string name="section_academic">Academic Information</string>
+    <string name="hint_student_number">Student Number</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_middle_name">Middle Name</string>
+    <string name="hint_program">Program</string>
+    <string name="btn_submit">Submit</string>
+    <string name="success_welcome">Welcome to National University.</string>
+    <string name="error_username">Username is required</string>
+    <string name="error_password">Password is required</string>
+    <string name="error_required">This field is required</string>
+    <string name="error_program">Select a program</string>
+    <string name="program_bscs_ml">BSCS - ML</string>
+    <string name="program_bscs_df">BSCS - DF</string>
+
+    <string-array name="programs">
+        <item>@string/program_bscs_ml</item>
+        <item>@string/program_bscs_df</item>
+    </string-array>
+</resources>

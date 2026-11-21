@@ -1,0 +1,14 @@
+<resources>
+    <!-- Keep the same deep navy portal theme when the system is in dark mode. -->
+    <style name="Base.Theme.StudentInfoSystem" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/nu_navy</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/nu_gold</item>
+        <item name="colorOnSecondary">@color/nu_navy</item>
+        <item name="colorSurface">@color/nu_card</item>
+        <item name="colorOnSurface">@color/nu_ink</item>
+        <item name="android:windowBackground">@color/nu_navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>
