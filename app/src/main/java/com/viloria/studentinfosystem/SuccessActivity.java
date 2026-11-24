@@ -1,5 +1,6 @@
 package com.viloria.studentinfosystem;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -35,5 +36,13 @@ public class SuccessActivity extends AppCompatActivity {
         text.setAlpha(0f);
         text.setTranslationY(16 * dp);
         text.animate().alpha(1f).translationY(0f).setDuration(450).setStartDelay(180).start();
+
+        findViewById(R.id.btnBackDashboard).setOnClickListener(v ->
+                startActivity(new Intent(SuccessActivity.this, PortalActivity.class)));
+        findViewById(R.id.btnViewProfile).setOnClickListener(v -> {
+            Intent intent = new Intent(SuccessActivity.this, PortalActivity.class);
+            intent.putExtra("open_profile", true);
+            startActivity(intent);
+        });
     }
 }

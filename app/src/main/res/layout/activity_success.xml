@@ -38,7 +38,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:fontFamily="@font/eb_garamond_bold"
+            android:fontFamily="@font/fraunces"
+            android:textStyle="bold"
             android:gravity="center"
             android:text="@string/success_welcome"
             android:textColor="@color/nu_cream"
@@ -49,5 +50,30 @@
             android:layout_height="3dp"
             android:layout_marginTop="20dp"
             android:background="@color/nu_gold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/success_back"
+            android:textAllCaps="false"
+            android:textColor="@color/nu_navy"
+            android:textSize="15sp"
+            app:backgroundTint="@color/nu_gold"
+            app:cornerRadius="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewProfile"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/success_profile"
+            android:textAllCaps="false"
+            android:textColor="@color/nu_gold"
+            android:textSize="14sp"
+            app:cornerRadius="16dp"
+            app:strokeColor="@color/nu_gold" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

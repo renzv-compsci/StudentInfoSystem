@@ -47,7 +47,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:fontFamily="@font/eb_garamond_bold"
+                    android:fontFamily="@font/fraunces"
+                    android:textStyle="bold"
                     android:gravity="center"
                     android:text="@string/nu_monogram"
                     android:textColor="@color/nu_gold"
@@ -68,7 +69,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:fontFamily="@font/eb_garamond_bold"
+                android:fontFamily="@font/fraunces"
+                    android:textStyle="bold"
                 android:gravity="center"
                 android:text="@string/login_title"
                 android:textColor="@color/nu_cream"
@@ -92,7 +94,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/eb_garamond_bold"
+                        android:fontFamily="@font/fraunces"
+                    android:textStyle="bold"
                         android:text="@string/login_card_title"
                         android:textColor="@color/nu_navy"
                         android:textSize="24sp" />

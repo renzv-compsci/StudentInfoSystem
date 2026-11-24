@@ -1,6 +1,7 @@
 package com.viloria.studentinfosystem;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -52,6 +53,13 @@ public class StudentInfoActivity extends AppCompatActivity {
 
         String[] programs = getResources().getStringArray(R.array.programs);
         actProgram.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, programs));
+
+        SharedPreferences prefs = getSharedPreferences("student_profile", MODE_PRIVATE);
+        etStudentNumber.setText(prefs.getString("number", getString(R.string.default_student_no)));
+        etLastName.setText("Viloria");
+        etFirstName.setText("Renz Jerik");
+        etMiddleName.setText("C.");
+        actProgram.setText(prefs.getString("program", getString(R.string.program_bscs_ml)), false);
 
         MaterialButton btnSubmit = findViewById(R.id.btnSubmit);
 

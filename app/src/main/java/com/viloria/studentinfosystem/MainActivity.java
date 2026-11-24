@@ -17,6 +17,9 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String DEMO_USERNAME = "admin";
+    private static final String DEMO_PASSWORD = "admin123";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,9 +60,13 @@ public class MainActivity extends AppCompatActivity {
                 tilPassword.setError(getString(R.string.error_password));
                 valid = false;
             }
+            if (valid && !(DEMO_USERNAME.equals(username) && DEMO_PASSWORD.equals(password))) {
+                tilPassword.setError(getString(R.string.error_invalid_login));
+                valid = false;
+            }
 
             if (valid) {
-                startActivity(new Intent(MainActivity.this, StudentInfoActivity.class));
+                startActivity(new Intent(MainActivity.this, PortalActivity.class));
             }
         });
     }
