@@ -28,6 +28,10 @@
             android:windowSoftInputMode="adjustResize" />
 
         <activity
+            android:name=".PortalActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".SuccessActivity"
             android:exported="false" />
     </application>
