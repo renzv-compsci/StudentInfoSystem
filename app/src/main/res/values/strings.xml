@@ -38,9 +38,10 @@
     <string name="hint_middle_name">Middle Name</string>
     <string name="hint_program">Program</string>
     <string name="btn_submit">Submit</string>
+    <string name="btn_back_dashboard">Back to Dashboard</string>
 
     <string name="title_schedule">Class Schedule</string>
-    <string name="schedule_subtitle">Term 2, AY 2026-2027 · tap a block for details</string>
+    <string name="schedule_subtitle">Term 2, AY 2026-2027 · swipe to see more days · tap a block for details</string>
     <string name="title_grades">Grade Report</string>
     <string name="grades_subtitle">Term 2, AY 2026-2027 · scale 1.00 lowest to 4.00 highest</string>
     <string name="gwa_label">General weighted average</string>
