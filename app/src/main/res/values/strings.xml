@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">StudentInfoSystem</string>
     <string name="nu_monogram">NU</string>
+    <string name="portal_title">NU Student Portal</string>
     <string name="login_title">Student Information System</string>
     <string name="university_name">National University</string>
     <string name="login_card_title">Sign In</string>
@@ -8,6 +9,26 @@
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
     <string name="btn_login">Log In</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_grades">Grades</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="dash_good_day">Good Day</string>
+    <string name="dash_snapshot">Academic Snapshot</string>
+    <string name="stat_units">Units enrolled</string>
+    <string name="stat_gwa">GWA</string>
+    <string name="stat_attendance">Attendance</string>
+    <string name="stat_status">Status</string>
+    <string name="stat_enrolled">Enrolled</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="quick_student_info">Student Information</string>
+    <string name="quick_schedule">Class Schedule</string>
+    <string name="quick_grades">View Grades</string>
+    <string name="quick_profile">Profile</string>
+    <string name="dash_subtitle_format">%1$s · National University</string>
+
     <string name="title_student_info">Student Information</string>
     <string name="section_personal">Personal Information</string>
     <string name="section_academic">Academic Information</string>
@@ -17,9 +38,37 @@
     <string name="hint_middle_name">Middle Name</string>
     <string name="hint_program">Program</string>
     <string name="btn_submit">Submit</string>
+
+    <string name="title_schedule">Class Schedule</string>
+    <string name="schedule_subtitle">Term 2, AY 2026-2027 · tap a block for details</string>
+    <string name="title_grades">Grade Report</string>
+    <string name="grades_subtitle">Term 2, AY 2026-2027 · scale 1.00 lowest to 4.00 highest</string>
+    <string name="gwa_label">General weighted average</string>
+    <string name="units_format">%d units</string>
+
+    <string name="profile_title">Profile Settings</string>
+    <string name="profile_subtitle">Changes stay on this device.</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_save">Save Changes</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="toast_profile_saved">Profile saved</string>
+
     <string name="success_welcome">Welcome to National University.</string>
+    <string name="success_back">Back to Dashboard</string>
+    <string name="success_profile">View Profile</string>
+
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_body">• Enrollment confirmed for Term 2.\n• CS 311 project deadline moved to Friday.\n• Library clearance reminder.</string>
+    <string name="notif_count">3</string>
+
+    <string name="default_name">Renz Jerik C. Viloria</string>
+    <string name="default_student_no">2024-1000234</string>
+    <string name="default_email">renz.viloria@nu.edu.ph</string>
+
     <string name="error_username">Username is required</string>
     <string name="error_password">Password is required</string>
+    <string name="error_invalid_login">Invalid username or password</string>
     <string name="error_required">This field is required</string>
     <string name="error_program">Select a program</string>
     <string name="program_bscs_ml">BSCS - ML</string>

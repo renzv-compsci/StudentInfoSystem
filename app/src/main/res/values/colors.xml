@@ -10,4 +10,10 @@
     <color name="nu_card">#FFFDF8</color>
     <color name="nu_ink">#1B2433</color>
     <color name="nu_muted">#5C6B82</color>
+    <color name="nu_muted_light">#B3F8F5EE</color>
+    <color name="nu_row">#1E293B</color>
+    <color name="nu_schedule_bg">#0B1220</color>
+    <color name="nu_border">#22FFFFFF</color>
+    <color name="nu_gwa_bg">#1FE9B44C</color>
+    <color name="nu_icon_bg">#1AFFFFFF</color>
 </resources>
