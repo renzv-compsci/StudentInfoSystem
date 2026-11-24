@@ -62,6 +62,7 @@ public class StudentInfoActivity extends AppCompatActivity {
         actProgram.setText(prefs.getString("program", getString(R.string.program_bscs_ml)), false);
 
         MaterialButton btnSubmit = findViewById(R.id.btnSubmit);
+        findViewById(R.id.btnBackForm).setOnClickListener(v -> finish());
 
         btnSubmit.setOnClickListener(v -> {
             tilStudentNumber.setError(null);

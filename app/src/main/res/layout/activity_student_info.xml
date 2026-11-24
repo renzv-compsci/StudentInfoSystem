@@ -263,6 +263,19 @@
                         android:textSize="16sp"
                         app:backgroundTint="@color/nu_gold"
                         app:cornerRadius="16dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnBackForm"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/btn_back_dashboard"
+                        android:textAllCaps="false"
+                        android:textColor="@color/nu_navy"
+                        android:textSize="14sp"
+                        app:cornerRadius="16dp"
+                        app:strokeColor="@color/nu_gold_line" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
